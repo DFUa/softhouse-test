@@ -1,0 +1,98 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\cmder\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Yarn\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\dimon\AppData\Local\Microsoft\WindowsApps;C:\Windows\System32;C:\Users\dimon\AppData\Local\Programs\Microsoft VS Code\bin;C:\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk-11.0.1\bin;C:\Users\dimon\AppData\Local\Yarn\bin;C:\Users\dimon\AppData\Roaming\npm;C:\Program Files\Git\mingw64;C:\Program Files\Git\usr\bin;C:\cmder
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\Job\softhouse\test\package.json: Unexpected token , in JSON at position 78
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "private": true,
+    "engines": {
+      "node": ">=4"
+    },
+    "dependencies": {,
+      "jquery": "^3.3.1",
+      "modernizr": "^3.6.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.1.2",
+      "@babel/preset-env": "^7.1.0",
+      "autoprefixer": "^9.4.4",
+      "browser-sync": "^2.2.1",
+      "cross-env": "^5.2.0",
+      "cssnano": "^4.1.7",
+      "del": "^3.0.0",
+      "gulp": "^4.0.0",
+      "gulp-babel": "^8.0.0",
+      "gulp-cli": "^2.0.1",
+      "gulp-eslint": "^5.0.0",
+      "gulp-filter": "^5.1.0",
+      "gulp-htmlmin": "^5.0.1",
+      "gulp-if": "^2.0.2",
+      "gulp-imagemin": "^5.0.3",
+      "gulp-load-plugins": "^1.2.4",
+      "gulp-plumber": "^1.0.1",
+      "gulp-postcss": "^8.0.0",
+      "gulp-sass": "^4.0.2",
+      "gulp-size": "^3.0.0",
+      "gulp-sourcemaps": "^2.2.0",
+      "gulp-uglify": "^3.0.1",
+      "gulp-useref": "^3.0.0",
+      "mkdirp": "^0.5.1",
+      "mocha": "^5.2.0",
+      "yargs": "12.0.5"
+    },
+    "scripts": {
+      "serve:test": "cross-env NODE_ENV=test gulp serve",
+      "serve:dist": "cross-env NODE_ENV=production gulp serve",
+      "start": "gulp serve",
+      "build": "cross-env NODE_ENV=production gulp",
+      "test": "npm run serve:test",
+      "tasks": "gulp --tasks"
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "Firefox ESR"
+    ],
+    "eslintConfig": {
+      "parserOptions": {
+        "sourceType": "module"
+      },
+      "env": {
+        "es6": true,
+        "node": true,
+        "browser": true,
+        "jquery": true
+      },
+      "rules": {
+        "quotes": [
+          2,
+          "single"
+        ]
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

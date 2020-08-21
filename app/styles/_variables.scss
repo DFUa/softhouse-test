@@ -1,0 +1,30 @@
+// colors
+$dark: #454545;
+$light-dark: #535353;
+$aqua: #76A9D7;
+$blue: #3A7BB6;
+$light-blue: #E5F0FC;
+$white: #FFF;
+$grey: #F4F4F4;
+
+// typography
+$font-stack: -apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+Oxygen-Sans,
+Ubuntu,
+Cantarell,
+"Helvetica Neue",
+sans-serif;
+$primary-font: 'Roboto',
+$font-stack;
+$h1: 700 60px $primary-font;
+$h2: 500 45px $primary-font;
+$h3: 500 38px $primary-font;
+$h4: 500 32px $primary-font;
+$h5: 400 26px $primary-font;
+$h6: 400 24px $primary-font;
+$h7: 400 22px $primary-font;
+$h8: 400 18px $primary-font;
+$h9: 400 16px $primary-font;

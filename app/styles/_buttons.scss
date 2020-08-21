@@ -1,0 +1,74 @@
+.btn {
+	display: inline-block;
+  min-width: 262px;
+  border: 2px solid transparent;
+  transition: all .3s;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 26px;
+  cursor: pointer;
+  color: inherit;
+
+  &.btn-primary {
+  	color: $white;
+    background-color: $aqua;
+
+    &:hover {
+      background-color: $blue;
+    }
+  }
+
+  &.btn-secondary {
+  	border-color: $aqua;
+  	color: $aqua;
+    background-color: transparent;
+
+    &:hover {
+    	border-color: transparent;
+      background-color: $aqua;
+      color: $white;
+    }
+  }
+
+  &.btn-round {
+  	border-radius: 20px;
+  	min-width: 95px;
+  	font-size: 16px;
+  	color: $white;
+  	border-color: $white;
+  	background-color: transparent;
+  	padding-top: 8px;
+  	padding-bottom: 8px;
+  	&:hover {
+  		background-color: $aqua;
+  		border-color: transparent;
+  	}
+  }
+
+  &.btn-transparent {
+  	border-color: $white;
+  	color: $white;
+  	font-size: 18px;
+  	min-width: 165px;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  	background-color: transparent;
+  	&:hover{
+  		color: $aqua;
+  		background-color: $white;
+  	}
+  }
+
+  &.btn-small {
+  	padding-top: 11px;
+  	padding-bottom: 11px;
+  	min-width: 150px;
+  	font-size: 17px;
+  }
+
+  &.disabled {
+  	cursor: default;
+  	background-color: #C8D6E3;
+  }
+}
