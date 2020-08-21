@@ -9,6 +9,3 @@ bower_components
 # System Files
 .DS_Store
 Thumbs.db
-
-#mockups
-/mockup
